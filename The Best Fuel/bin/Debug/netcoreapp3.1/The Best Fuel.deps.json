@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "The Best Fuel/1.0.0": {
+        "runtime": {
+          "The Best Fuel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "The Best Fuel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
