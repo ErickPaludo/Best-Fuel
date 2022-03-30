@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 
 namespace Best_Fuel
 {
@@ -46,19 +45,18 @@ namespace Best_Fuel
                 else
                 {
                     x = 0;
-                    Console.Clear();
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine(" -Beta 1.1- -Project_Best_Fuel-");
-                    Console.WriteLine();
-                    Console.WriteLine("* Alterações no código Km/l de int para double;");
-                    Console.WriteLine();
-                    Console.WriteLine("* Alteração no Icone;");
-                    Console.WriteLine();
-                    Console.WriteLine("+ Função tanque foi adicionada; ");
-
                 }
             }
-
+            Console.Clear();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(" -Beta 1.1- -Project_Best_Fuel-");
+            Console.WriteLine();
+            Console.WriteLine("* Alterações no código Km/l de int para double;");
+            Console.WriteLine();
+            Console.WriteLine("* Alteração no Icone;");
+            Console.WriteLine();
+            Console.WriteLine("+ Função tanque foi adicionada; ");
+            int final = int.Parse(Console.ReadLine());
         }
     }
 }
