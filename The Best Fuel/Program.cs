@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Best_Fuel
 {
@@ -6,17 +7,18 @@ namespace Best_Fuel
     {
         static void Main(string[] args)
         {
-            Part_1 extencion;
-            extencion = new Part_1();
+            List<Part_1> list = new List<Part_1>();
+            double pedagio = 0;
             int x = 1;
             while (x == 1)
             {
+                // 1.1
                 Console.Write("Informe a média de Km/L do veículo: ");
                 double média = double.Parse(Console.ReadLine());
 
                 Console.WriteLine();
 
-                Console.Write("Informe a o preço do combustível: R$ ");
+                Console.Write("Informe o preço do combustível: R$ ");
                 double preço = double.Parse(Console.ReadLine());
 
                 Console.WriteLine();
@@ -28,12 +30,43 @@ namespace Best_Fuel
 
                 Console.Write("Qual é a capacidade do tanque do véiculo: ");
                 double tanque = double.Parse(Console.ReadLine());
-
                 Console.WriteLine();
+                // -------------------------------------------------------------------------------
+                // início pedágio 1.2
 
-                extencion.Calc(média, preço, distancia, tanque);
-                Console.WriteLine(extencion);
+                Console.Write("Deseja Incluir pedágio (1 = Sim / 0 = Não)? ");
 
+                int resp = int.Parse(Console.ReadLine());
+                int sim = 1;              
+                
+                if(resp == sim)
+                {
+                    Console.Clear();
+                    Console.Write("Qual é a quantidade de pedágios para a ida? ");
+                    int quant = int.Parse(Console.ReadLine());
+                    int cont = 1;
+                    Console.WriteLine();
+                    for (int i = 0; i < quant; i++)
+                    {  
+                        Console.Write("Digite o valor do pedágio [{0}]: R$ ", cont);
+                        cont = cont + 1;
+                        double ped = double.Parse(Console.ReadLine());
+                        pedagio = ped + pedagio;       
+                        Console.WriteLine();
+                    }
+                    list.Add(new Part_1(média, preço, distancia, tanque, pedagio));
+                }
+                else
+                {                   
+                    list.Add(new Part_1(média, preço, distancia, tanque, pedagio));
+                }
+
+                
+                foreach (Part_1 obj in list)
+                {
+                    Console.Clear();
+                    Console.WriteLine(obj);
+                }
                 Console.WriteLine();
 
                 Console.WriteLine("Executar outra viagem? (Sim = 1) (Não = 0)");
@@ -49,13 +82,15 @@ namespace Best_Fuel
             }
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(" -Beta 1.1- -Project_Best_Fuel-");
+            Console.WriteLine(" -Beta 1.2- -Project_Best_Fuel-");
             Console.WriteLine();
             Console.WriteLine("* Alterações no código Km/l de int para double;");
             Console.WriteLine();
             Console.WriteLine("* Alteração no Icone;");
             Console.WriteLine();
             Console.WriteLine("+ Função tanque foi adicionada; ");
+            Console.WriteLine();
+            Console.WriteLine("+ Função pedágio foi adicionada; ");
             int final = int.Parse(Console.ReadLine());
         }
     }

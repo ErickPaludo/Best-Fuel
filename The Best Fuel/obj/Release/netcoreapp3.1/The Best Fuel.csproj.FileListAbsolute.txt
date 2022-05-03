@@ -11,3 +11,17 @@ C:\Users\erick\source\repos\The Best Fuel\The Best Fuel\obj\Release\netcoreapp3.
 C:\Users\erick\source\repos\The Best Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.dll
 C:\Users\erick\source\repos\The Best Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.pdb
 C:\Users\erick\source\repos\The Best Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.genruntimeconfig.cache
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\bin\Release\netcoreapp3.1\The Best Fuel.exe
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\bin\Release\netcoreapp3.1\The Best Fuel.deps.json
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\bin\Release\netcoreapp3.1\The Best Fuel.runtimeconfig.json
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\bin\Release\netcoreapp3.1\The Best Fuel.runtimeconfig.dev.json
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\bin\Release\netcoreapp3.1\The Best Fuel.dll
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\bin\Release\netcoreapp3.1\The Best Fuel.pdb
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.csproj.AssemblyReference.cache
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.AssemblyInfoInputs.cache
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.AssemblyInfo.cs
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.csproj.CoreCompileInputs.cache
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.dll
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.pdb
+C:\Users\erick\OneDrive\Área de Trabalho\Best-Fuel\The Best Fuel\obj\Release\netcoreapp3.1\The Best Fuel.genruntimeconfig.cache
