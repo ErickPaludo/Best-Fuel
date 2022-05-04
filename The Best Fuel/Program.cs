@@ -8,10 +8,10 @@ namespace Best_Fuel
         static void Main(string[] args)
         {
             List<Part_1> list = new List<Part_1>();
-            double pedagio = 0;
             int x = 1;
             while (x == 1)
             {
+                double pedagio = 0;
                 // 1.1
                 Console.Write("Informe a média de Km/L do veículo: ");
                 double média = double.Parse(Console.ReadLine());
@@ -31,7 +31,7 @@ namespace Best_Fuel
                 Console.Write("Qual é a capacidade do tanque do véiculo: ");
                 double tanque = double.Parse(Console.ReadLine());
                 Console.WriteLine();
-                // -------------------------------------------------------------------------------
+
                 // início pedágio 1.2
 
                 Console.Write("Deseja Incluir pedágio (1 = Sim / 0 = Não)? ");
@@ -82,15 +82,21 @@ namespace Best_Fuel
             }
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("--------------------------------");
             Console.WriteLine(" -Beta 1.2- -Project_Best_Fuel-");
             Console.WriteLine();
-            Console.WriteLine("* Alterações no código Km/l de int para double;");
+            Console.WriteLine("+ Função pedágio foi adicionada; ");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine(" -Beta 1.1- -Project_Best_Fuel-");
             Console.WriteLine();
             Console.WriteLine("* Alteração no Icone;");
-            Console.WriteLine();
             Console.WriteLine("+ Função tanque foi adicionada; ");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine(" -Beta 1.0- -Project_Best_Fuel-");
             Console.WriteLine();
-            Console.WriteLine("+ Função pedágio foi adicionada; ");
+            Console.WriteLine("* Alterações no código Km/l de int para double;");
+            Console.WriteLine("--------------------------------");
+            Console.WriteLine("Created by: Érick Paludo.");
             int final = int.Parse(Console.ReadLine());
         }
     }
